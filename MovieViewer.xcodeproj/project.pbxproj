@@ -14,6 +14,11 @@
 		C694B5621C5F1AAD0065513A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C694B5601C5F1AAD0065513A /* LaunchScreen.storyboard */; };
 		C694B56A1C5F1B1F0065513A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694B5691C5F1B1F0065513A /* MoviesViewController.swift */; };
 		C694B56D1C5F2DA20065513A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694B56C1C5F2DA20065513A /* MovieCell.swift */; };
+		C6E879C21C7151A4008A1783 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E879C11C7151A4008A1783 /* Reachability.swift */; };
+		C6E879C41C7151B1008A1783 /* Wifi-Error_1-512.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E879C31C7151B1008A1783 /* Wifi-Error_1-512.png */; };
+		C6E879C61C7163D2008A1783 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E879C51C7163D2008A1783 /* DetailsViewController.swift */; };
+		C6E879CA1C717D6A008A1783 /* noun_25084_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E879C81C717D6A008A1783 /* noun_25084_cc.png */; };
+		C6E879CB1C717D6A008A1783 /* noun_330137_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E879C91C717D6A008A1783 /* noun_330137_cc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		C694B5631C5F1AAD0065513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C694B5691C5F1B1F0065513A /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../MoviesViewController.swift; sourceTree = "<group>"; };
 		C694B56C1C5F2DA20065513A /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C6E879C11C7151A4008A1783 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = "../../../Downloads/Reachability.swift-master/Reachability/Reachability.swift"; sourceTree = "<group>"; };
+		C6E879C31C7151B1008A1783 /* Wifi-Error_1-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wifi-Error_1-512.png"; path = "../../../Downloads/Wifi-Error_1-512.png"; sourceTree = "<group>"; };
+		C6E879C51C7163D2008A1783 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C6E879C81C717D6A008A1783 /* noun_25084_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_25084_cc.png; path = Icons/noun_25084_cc.png; sourceTree = "<group>"; };
+		C6E879C91C717D6A008A1783 /* noun_330137_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_330137_cc.png; path = Icons/noun_330137_cc.png; sourceTree = "<group>"; };
 		FA97383B0B71EFD9A282F5D6 /* Pods-MovieViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieViewer/Pods-MovieViewer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +55,7 @@
 		C694B54B1C5F1AAD0065513A = {
 			isa = PBXGroup;
 			children = (
+				C6E879BD1C71514D008A1783 /* Resources */,
 				C694B5561C5F1AAD0065513A /* MovieViewer */,
 				C694B5551C5F1AAD0065513A /* Products */,
 				F18C5F9B72837D09D4AC3D37 /* Pods */,
@@ -86,8 +97,44 @@
 			isa = PBXGroup;
 			children = (
 				C694B5691C5F1B1F0065513A /* MoviesViewController.swift */,
+				C6E879C51C7163D2008A1783 /* DetailsViewController.swift */,
 			);
 			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		C6E879BD1C71514D008A1783 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6E879C71C717D58008A1783 /* Icons */,
+				C6E879C01C715170008A1783 /* Add-ons */,
+				C6E879BE1C715156008A1783 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6E879BE1C715156008A1783 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6E879C31C7151B1008A1783 /* Wifi-Error_1-512.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C6E879C01C715170008A1783 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				C6E879C11C7151A4008A1783 /* Reachability.swift */,
+			);
+			name = "Add-ons";
+			sourceTree = "<group>";
+		};
+		C6E879C71C717D58008A1783 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				C6E879C81C717D6A008A1783 /* noun_25084_cc.png */,
+				C6E879C91C717D6A008A1783 /* noun_330137_cc.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 		F18C5F9B72837D09D4AC3D37 /* Pods */ = {
@@ -171,7 +218,10 @@
 			files = (
 				C694B5621C5F1AAD0065513A /* LaunchScreen.storyboard in Resources */,
 				C694B55F1C5F1AAD0065513A /* Assets.xcassets in Resources */,
+				C6E879CB1C717D6A008A1783 /* noun_330137_cc.png in Resources */,
+				C6E879C41C7151B1008A1783 /* Wifi-Error_1-512.png in Resources */,
 				C694B55D1C5F1AAD0065513A /* Main.storyboard in Resources */,
+				C6E879CA1C717D6A008A1783 /* noun_25084_cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +282,9 @@
 			files = (
 				C694B5581C5F1AAD0065513A /* AppDelegate.swift in Sources */,
 				C694B56A1C5F1B1F0065513A /* MoviesViewController.swift in Sources */,
+				C6E879C21C7151A4008A1783 /* Reachability.swift in Sources */,
 				C694B56D1C5F2DA20065513A /* MovieCell.swift in Sources */,
+				C6E879C61C7163D2008A1783 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
